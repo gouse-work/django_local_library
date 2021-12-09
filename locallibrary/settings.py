@@ -27,7 +27,13 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','cd5cp@)j2&lzmytxf@r3bn_j2a%+@)=
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
 DEBUG = os.environ.get('DJANgo_DEBUG','') != 'False'
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'http://enigmatic-cliffs-77387.herokuapp.com/',
+    'https://enigmatic-cliffs-77387.herokuapp.com/',
+    'enigmatic-cliffs-77387.herokuapp.com',
+    'enigmatic-cliffs-77387.herokuapp.com/',
+    '127.0.0.1',
+]
 
 
 # Application definition
